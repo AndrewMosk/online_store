@@ -46,3 +46,16 @@ body {
     background-size: 2%; 
     padding-left: 40px;
 }
+
+.feedback_form input[type="text"], [type="email"] {
+    width: 500px;
+    height: 40px;
+    color: #7d7427;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.feedback_form textarea {
+    width: 500px;
+    height: 150px;
+}
