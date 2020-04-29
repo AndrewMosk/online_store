@@ -41,8 +41,13 @@ body {
 
 .product_characteristics {
     color: #3440a7;
-    font-size: 24px;
+    font-size: 16px;
     font-style: italic;
+    border-collapse: collapse;
+}
+
+.product_characteristics td {
+    border: 1px solid black;
 }
 
 .product_characteristics li {
@@ -58,9 +63,15 @@ body {
     color: #7d7427;
     font-size: 18px;
     font-style: italic;
+    text-transform: capitalize;
 }
 
 .feedback_form textarea {
     width: 500px;
     height: 150px;
+}
+
+.feedback_form input[type="email"]:focus {
+    background: #79135f;
+    color: rgb(0, 0, 0);
 }
