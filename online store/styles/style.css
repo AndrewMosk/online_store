@@ -146,6 +146,33 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.catalog_wrap:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.catalog_item {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.catalog_item:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.catalog_item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.catalog_image {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
 .footer {
     height: 100px;
     background-color: lightblue;
