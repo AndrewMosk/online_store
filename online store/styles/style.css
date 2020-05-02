@@ -6,20 +6,48 @@ body {
     width: 1024px;
     margin: 0 auto;
 }
+
+.header {
+    height: 118px;
+    position: relative;
+    background: url(../images/header_background.jpg) no-repeat 100%;
+}
+
+.header img { 
+    margin: 10px 0 0 30px;
+}
+
+.name {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
 .menu {
     list-style: none;
     font-size: 32px;
-    font-style: bold;
+    font-weight: bold;
+
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 5px;
 }
 
 .menu li a {
-    color: #501f7d;
+    color: #000000;
     text-decoration: none;
 }
 
 .menu li a:hover {
-    color: #21cc2a;
-    font-style: italic;
+    color: #cc21b0;
 }
 
 .product_description {
@@ -78,4 +106,14 @@ body {
 .feedback_form input[type="email"]:focus {
     background: #79135f;
     color: rgb(0, 0, 0);
+}
+
+.footer {
+    height: 100px;
+    background-color: lightblue;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
