@@ -2,6 +2,10 @@ body {
     background: #f8f8f8;
 }
 
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
 .menu {
     list-style: none;
     font-size: 32px;
